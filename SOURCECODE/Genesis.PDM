@@ -1,0 +1,439 @@
+[Root]
+Most Recent Package=SETUP
+
+
+[Package|Genesis Script|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\GENESIS\Setup
+
+[Package|Genesis Script|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|Genesis Script|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Genesis Script|Files Found]
+
+[Package|Genesis Script|Files Released]
+
+[Package|Genesis Script|Missing Dependency Information]
+
+[Package|Genesis Script|Out-of-Date Dependency Information]
+
+[Package|Genesis Script|Files Added]
+c:\genesis\dbgenesis.mdb=
+C:\GENESIS\dbUsers.mdb=
+C:\GENESIS\Help.htm=
+
+[Package|Genesis Script|Files Removed]
+
+[Package|Genesis Script|Files In Project]
+C:\GENESIS\Genesis.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\DBGRID32.OCX=Yes
+C:\WINDOWS\system32\DBLIST32.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\GENESIS\dbGenesis.mdb=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\GENESIS\dbUsers.mdb=Yes
+C:\GENESIS\Help.htm=Yes
+
+[Package|Genesis Script|Configure Registry Files]
+Applicable=No
+
+[Package|Genesis Script|Configure Remote Servers]
+Applicable=No
+
+[Package|Genesis Script|Install Locations]
+C:\GENESIS\Genesis.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DBGRID32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\GENESIS\dbGenesis.mdb=$(AppPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\GENESIS\dbUsers.mdb=$(AppPath)
+C:\GENESIS\Help.htm=$(AppPath)
+
+[Package|Genesis Script|Configure Shared Files]
+Applicable=Yes
+C:\GENESIS\Genesis.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\GENESIS\dbGenesis.mdb=No
+C:\GENESIS\dbUsers.mdb=No
+C:\GENESIS\Help.htm=No
+
+[Package|Genesis Script|Distribution]
+Type=single
+Size=
+Title=GENESIS COMPUTERIZED SYSTEM SETUP
+
+[Package|Genesis Script|IconGroups]
+Group0=GENESIS
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Genesis Script|GENESIS]
+Icon1=Genesis.exe
+Title1=GENESIS
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Genesis Script|Package]
+PackageFolder=C:\GENESIS\Setup
+ProjectFolder=C:\GENESIS
+ServerSideCab=
+File1=C:\GENESIS\Setup\setup.exe
+File2=C:\GENESIS\Setup\Setup.Lst
+File3=C:\GENESIS\Setup\Genesis.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|GENESIS|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Program Files\GENESIS\Setup
+
+[Package|GENESIS|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|GENESIS|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|GENESIS|Files Found]
+dbGenesis.mdb=C:\Program Files\GENESIS\dbGenesis.mdb
+
+[Package|GENESIS|Files Released]
+
+[Package|GENESIS|Missing Dependency Information]
+
+[Package|GENESIS|Out-of-Date Dependency Information]
+
+[Package|GENESIS|Files Added]
+dbusers.mdb=
+dbgenesis.mdb=
+help.htm=
+
+[Package|GENESIS|Files Removed]
+
+[Package|GENESIS|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\DBGRID32.OCX=Yes
+C:\WINDOWS\system32\DBLIST32.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\GENESIS\Genesis.exe=Yes
+C:\Program Files\GENESIS\dbUsers.mdb=Yes
+C:\Program Files\GENESIS\dbGenesis.mdb=Yes
+C:\Program Files\GENESIS\Help.htm=Yes
+
+[Package|GENESIS|Configure Registry Files]
+Applicable=No
+
+[Package|GENESIS|Configure Remote Servers]
+Applicable=No
+
+[Package|GENESIS|Install Locations]
+C:\GENESIS\Genesis.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DBGRID32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\GENESIS\dbUsers.mdb=$(AppPath)
+C:\GENESIS\dbGenesis.mdb=$(AppPath)
+C:\GENESIS\Help.htm=$(AppPath)
+C:\Program Files\GENESIS\Genesis.exe=$(AppPath)
+C:\Program Files\GENESIS\dbUsers.mdb=$(AppPath)
+C:\Program Files\GENESIS\dbGenesis.mdb=$(AppPath)
+C:\Program Files\GENESIS\Help.htm=$(AppPath)
+
+[Package|GENESIS|Configure Shared Files]
+Applicable=Yes
+C:\GENESIS\Genesis.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\GENESIS\dbUsers.mdb=No
+C:\GENESIS\dbGenesis.mdb=No
+C:\GENESIS\Help.htm=No
+C:\Program Files\GENESIS\Genesis.exe=No
+C:\Program Files\GENESIS\dbUsers.mdb=No
+C:\Program Files\GENESIS\dbGenesis.mdb=No
+C:\Program Files\GENESIS\Help.htm=No
+
+[Package|GENESIS|Distribution]
+Type=single
+Size=
+Title=GENESIS COMPUTERIZED SYSTEM
+
+[Package|GENESIS|IconGroups]
+Group0=GENESIS COMPUTERIZED SYSTEM
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|GENESIS|GENESIS COMPUTERIZED SYSTEM]
+Icon1=Genesis.exe
+Title1=GENESIS COMPUTERIZED SYSTEM
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|GENESIS|Package]
+PackageFolder=C:\Program Files\GENESIS\Setup
+ProjectFolder=C:\Program Files\GENESIS
+ServerSideCab=
+File1=C:\Program Files\GENESIS\Setup\setup.exe
+File2=C:\Program Files\GENESIS\Setup\Setup.Lst
+File3=C:\Program Files\GENESIS\Setup\Genesis.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|SETUP|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\xman\Desktop\GENESIS\Setup
+
+[Package|SETUP|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|SETUP|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|SETUP|Files Found]
+
+[Package|SETUP|Files Released]
+
+[Package|SETUP|Missing Dependency Information]
+
+[Package|SETUP|Out-of-Date Dependency Information]
+
+[Package|SETUP|Files Added]
+C:\Documents and Settings\xman\Desktop\GENESIS\dbGenesis.mdb=
+C:\Documents and Settings\xman\Desktop\GENESIS\dbInitialize.mdb=
+C:\Documents and Settings\xman\Desktop\GENESIS\dbUsers.mdb=
+C:\Documents and Settings\xman\Desktop\GENESIS\Help.rtf=
+C:\Documents and Settings\xman\Desktop\GENESIS\ReadMe.doc=
+
+[Package|SETUP|Files Removed]
+
+[Package|SETUP|Files In Project]
+C:\Documents and Settings\xman\Desktop\GENESIS\Genesis.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\DBGRID32.OCX=Yes
+C:\WINDOWS\system32\DBLIST32.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\xman\Desktop\GENESIS\dbGenesis.mdb=Yes
+C:\Documents and Settings\xman\Desktop\GENESIS\dbInitialize.mdb=Yes
+C:\Documents and Settings\xman\Desktop\GENESIS\dbUsers.mdb=Yes
+C:\Documents and Settings\xman\Desktop\GENESIS\Help.rtf=Yes
+C:\Documents and Settings\xman\Desktop\GENESIS\ReadMe.doc=Yes
+
+[Package|SETUP|Configure Registry Files]
+Applicable=No
+
+[Package|SETUP|Configure Remote Servers]
+Applicable=No
+
+[Package|SETUP|Install Locations]
+C:\Documents and Settings\xman\Desktop\GENESIS\Genesis.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DBGRID32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\xman\Desktop\GENESIS\dbGenesis.mdb=$(AppPath)
+C:\Documents and Settings\xman\Desktop\GENESIS\dbInitialize.mdb=$(AppPath)
+C:\Documents and Settings\xman\Desktop\GENESIS\dbUsers.mdb=$(AppPath)
+C:\Documents and Settings\xman\Desktop\GENESIS\Help.rtf=$(AppPath)
+C:\Documents and Settings\xman\Desktop\GENESIS\ReadMe.doc=$(AppPath)
+
+[Package|SETUP|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\xman\Desktop\GENESIS\Genesis.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Documents and Settings\xman\Desktop\GENESIS\dbGenesis.mdb=No
+C:\Documents and Settings\xman\Desktop\GENESIS\dbInitialize.mdb=No
+C:\Documents and Settings\xman\Desktop\GENESIS\dbUsers.mdb=No
+C:\Documents and Settings\xman\Desktop\GENESIS\Help.rtf=No
+C:\Documents and Settings\xman\Desktop\GENESIS\ReadMe.doc=No
+
+[Package|SETUP|Distribution]
+Type=single
+Size=
+Title=GENESIS COMPUTERIZED SYSTEM
+
+[Package|SETUP|IconGroups]
+Group0=GENESIS COMPUTERIZED SYSTEM
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|SETUP|GENESIS COMPUTERIZED SYSTEM]
+Icon1=Genesis.exe
+Title1=GENESIS
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|SETUP|Package]
+PackageFolder=C:\Documents and Settings\xman\Desktop\GENESIS\Setup
+ProjectFolder=C:\Documents and Settings\xman\Desktop\GENESIS
+ServerSideCab=
+File1=C:\Documents and Settings\xman\Desktop\GENESIS\Setup\setup.exe
+File2=C:\Documents and Settings\xman\Desktop\GENESIS\Setup\Setup.Lst
+File3=C:\Documents and Settings\xman\Desktop\GENESIS\Setup\Genesis.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
