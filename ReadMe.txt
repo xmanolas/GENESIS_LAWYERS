@@ -1,9 +1,5 @@
 
-
----------------------------------Read Me File----------------------------
-
-
------------------------------GENESIS SOURCE CODE-------------------------
+----------------------------- GENESIS APP ----------------------------
 
 
 
@@ -16,7 +12,7 @@
 3) For full project documentation and help please refer to DOCUMENTATION.doc.
 
 4) You can copy the SOURCECODE folder to any place on your hard drive.
-   Afterwards, open the SOURCECODE folder and run the Genesis.vbp file.
+   Next, open the SOURCECODE folder and run the Genesis.vbp file.
 
 
 
