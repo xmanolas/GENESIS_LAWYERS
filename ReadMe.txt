@@ -13,6 +13,8 @@
 
 4) You can copy the SOURCECODE folder to any place on your hard drive.
    Next, open the SOURCECODE folder and run the Genesis.vbp file.
+   
+5) Detailed documentation and a USER MANUAL can be found in DOCUMENTATION.doc
 
 
 
